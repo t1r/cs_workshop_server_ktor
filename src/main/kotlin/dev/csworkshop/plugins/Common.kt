@@ -1,4 +1,4 @@
-package dev.csworksnop.plugins
+package dev.csworkshop.plugins
 
 object Constants {
     internal const val PREFIX_API = "/api"

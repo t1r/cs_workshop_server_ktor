@@ -1,10 +1,10 @@
-package dev.csworksnop
+package dev.csworkshop
 
-import dev.csworksnop.auth.setupBasicAuth
-import dev.csworksnop.plugins.authRouting
-import dev.csworksnop.plugins.configureRouting
-import dev.csworksnop.plugins.configureSecurity
-import dev.csworksnop.plugins.foodRouting
+import dev.csworkshop.auth.setupBasicAuth
+import dev.csworkshop.plugins.authRouting
+import dev.csworkshop.plugins.configureRouting
+import dev.csworkshop.plugins.configureSecurity
+import dev.csworkshop.plugins.foodRouting
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*

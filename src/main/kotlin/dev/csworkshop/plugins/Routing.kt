@@ -1,4 +1,4 @@
-package dev.csworksnop.plugins
+package dev.csworkshop.plugins
 
 import io.ktor.server.application.*
 

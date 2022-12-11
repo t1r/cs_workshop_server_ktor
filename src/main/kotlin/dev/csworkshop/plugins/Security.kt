@@ -1,6 +1,6 @@
-package dev.csworksnop.plugins
+package dev.csworkshop.plugins
 
-import dev.csworksnop.auth.AUTH_CONFIGURATION_NAME
+import dev.csworkshop.auth.AUTH_CONFIGURATION_NAME
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
 import io.ktor.server.response.*

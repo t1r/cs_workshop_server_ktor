@@ -1,4 +1,4 @@
-package dev.csworksnop.auth
+package dev.csworkshop.auth
 
 import io.ktor.server.auth.*
 import io.ktor.util.*

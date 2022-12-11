@@ -8,10 +8,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.22"
 }
 
-group = "dev.csworksnop"
+group = "dev.csworkshop"
 version = "0.0.1"
 application {
-    mainClass.set("dev.csworksnop.ApplicationKt")
+    mainClass.set("dev.csworkshop.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

@@ -1,7 +1,7 @@
-package dev.csworksnop.plugins
+package dev.csworkshop.plugins
 
-import dev.csworksnop.auth.hashedUserTable
-import dev.csworksnop.plugins.Constants.PREFIX_API
+import dev.csworkshop.auth.hashedUserTable
+import dev.csworkshop.plugins.Constants.PREFIX_API
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.*
