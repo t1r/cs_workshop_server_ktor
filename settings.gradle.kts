@@ -1,0 +1,1 @@
+rootProject.name = "dev.csworksnop.cs_server_workshop_ktor"
