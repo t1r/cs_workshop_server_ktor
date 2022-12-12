@@ -17,13 +17,13 @@ fun Application.authRouting() {
                 val name = parameters["name"]!!
                 val password = parameters["password"]!!
 
-                val id = hashedUserTable.authenticate(
+                hashedUserTable.authenticate(
                     UserPasswordCredential(
                         name = name,
                         password = password,
                     )
                 )
-                call.respondText("Авторизация успешна", status = HttpStatusCode.OK)
+                call.respondText("Auth successful", status = HttpStatusCode.OK)
             } catch (throwable: Throwable) {
                 throwable.printStackTrace()
                 call.respond(HttpStatusCode.BadRequest)

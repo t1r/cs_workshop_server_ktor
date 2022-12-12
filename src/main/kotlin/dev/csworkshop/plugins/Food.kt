@@ -14,11 +14,11 @@ fun Application.foodRouting() {
     val foodStorage = mutableListOf<FoodModel>().apply {
         addAll(
             arrayOf(
-                FoodModel(1, "Огурец", 100F),
-                FoodModel(2, "Картоха", 100F),
-                FoodModel(3, "Лук", 100F),
-                FoodModel(4, "Булочка", 100F),
-                FoodModel(5, "Кунжут", 100F),
+                FoodModel(1, "Cucumber", 100F),
+                FoodModel(2, "Potato", 100F),
+                FoodModel(3, "Onion", 100F),
+                FoodModel(4, "Bread", 100F),
+                FoodModel(5, "Sesame", 100F),
             )
         )
     }
@@ -52,7 +52,7 @@ fun Application.foodRouting() {
                             weight = weight,
                         )
                     )
-                    call.respondText("Добавление успешно", status = HttpStatusCode.Created)
+                    call.respondText("Add success", status = HttpStatusCode.Created)
                 } catch (throwable: Throwable) {
                     throwable.printStackTrace()
                     call.respond(HttpStatusCode.BadRequest)
