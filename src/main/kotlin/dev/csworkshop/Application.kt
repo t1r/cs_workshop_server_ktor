@@ -2,8 +2,6 @@ package dev.csworkshop
 
 import dev.csworkshop.auth.setupBasicAuth
 import dev.csworkshop.plugins.authRouting
-import dev.csworkshop.plugins.configureRouting
-import dev.csworkshop.plugins.configureSecurity
 import dev.csworkshop.plugins.foodRouting
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
@@ -37,7 +35,4 @@ fun Application.module() {
     }
     authRouting()
     foodRouting()
-
-    configureSecurity()
-    configureRouting()
 }
